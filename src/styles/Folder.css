@@ -1,8 +1,8 @@
-
 .folder_tab, .folder {
   margin: 0 auto;
   background-color: #f7f5ed;
 }
+
 .folder_tab {
   width: 250px;
   height: 50px;
@@ -10,6 +10,7 @@
   border-radius: 10px 20px 0 0;
   box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.3);
 }
+
 .folder {
   width: 1000px;
   height: 600px;
