@@ -1,3 +1,7 @@
+.container {
+  position: relative;
+}
+
 .folder_tab, .folder {
   margin: 0 auto;
   background-color: #f7f5ed;
