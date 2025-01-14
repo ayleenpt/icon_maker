@@ -1,7 +1,7 @@
-import '../styles/SelectAnimalButton.css';
+import '../styles/SelectItemButton.css';
 import React from "react";
 
-const SelectAnimalButton = ({image, altText}) => {
+const SelectItemButton = ({image, altText}) => {
   const handleClick = () => {
     console.log(`Selected ${image}`);
   }
@@ -15,4 +15,4 @@ const SelectAnimalButton = ({image, altText}) => {
   );
 };
 
-export default SelectAnimalButton;
+export default SelectItemButton;
