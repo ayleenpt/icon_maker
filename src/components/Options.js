@@ -8,6 +8,18 @@ function Options() {
         animal
         <SelectAnimalSection />
       </div>
+      <div className="section">
+        accessory
+        <SelectAnimalSection />
+      </div>
+      <div className="section">
+        background
+        <SelectAnimalSection />
+      </div>
+      <div className="section">
+        extras
+        <SelectAnimalSection />
+      </div>
     </header>
   );
 }
