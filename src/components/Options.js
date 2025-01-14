@@ -4,7 +4,7 @@ import SelectAnimalSection from './SelectAnimalSection';
 function Options() {
   return(
     <header className="options-window">
-      <div className="section-title">
+      <div className="section">
         animal
         <SelectAnimalSection />
       </div>
