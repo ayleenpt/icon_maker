@@ -1,5 +1,6 @@
 import '../styles/Folder.css';
 import ImageWindow from './ImageWindow';
+import Options from './Options';
 
 function Folder() {
   return (
@@ -7,6 +8,7 @@ function Folder() {
       <div className="folder_tab"></div>
       <div className="folder">
         <ImageWindow />
+        <Options />
       </div>
     </div>
   );
