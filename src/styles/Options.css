@@ -1,6 +1,12 @@
+@font-face {
+  font-family: 'Naturaly';
+  src: url(../assets/Naturaly.otf) format('opentype');
+}
+
 .options-window {
   position: absolute;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 510px;
@@ -10,4 +16,11 @@
   box-shadow: 3px 3px 6px rgb(0, 0, 0, 0.3);
   right: 45px;
   top: 95px;
+}
+
+.section-title {
+  font-family: 'Naturaly';
+  font-size: 1.5em;
+  color: #000000;
+  margin: 10px;
 }
