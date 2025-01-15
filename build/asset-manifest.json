@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/icon_maker/static/css/main.d0f09e97.css",
+    "main.js": "/icon_maker/static/js/main.c8fa5ecd.js",
+    "static/js/488.63c37a81.chunk.js": "/icon_maker/static/js/488.63c37a81.chunk.js",
+    "static/media/Bear.png": "/icon_maker/static/media/Bear.ded18e77f0e6396230e2.png",
+    "static/media/Cat.png": "/icon_maker/static/media/Cat.e987f66ed93060e07536.png",
+    "static/media/Bunny.png": "/icon_maker/static/media/Bunny.37579c30c6ee9c4931e5.png",
+    "static/media/Glasses.png": "/icon_maker/static/media/Glasses.a3063f5c5e8c62954f0a.png",
+    "static/media/Bow.png": "/icon_maker/static/media/Bow.9859e035c968f06a2d86.png",
+    "static/media/TwoBows.png": "/icon_maker/static/media/TwoBows.f41cd13ad514c9d7df0e.png",
+    "static/media/Sunglasses.png": "/icon_maker/static/media/Sunglasses.c880b34227163bd243d4.png",
+    "static/media/Hat.png": "/icon_maker/static/media/Hat.d7c32cf717c291e6082f.png",
+    "static/media/Sparkles.png": "/icon_maker/static/media/Sparkles.33f2627cf939c41e27b2.png",
+    "static/media/Naturaly.otf": "/icon_maker/static/media/Naturaly.20ef1bbc6ff76e1b835c.otf",
+    "static/media/Monocle.png": "/icon_maker/static/media/Monocle.2a69d0382487d3393c3e.png",
+    "static/media/Angry.png": "/icon_maker/static/media/Angry.88a558a3a7bfc9ac450e.png",
+    "static/media/Mustache.png": "/icon_maker/static/media/Mustache.7c24a014e3ab9e2ac02f.png",
+    "static/media/Purple.png": "/icon_maker/static/media/Purple.16d7c98a7555a142db6e.png",
+    "static/media/Green.png": "/icon_maker/static/media/Green.557edc7c2c8f94d2efc9.png",
+    "static/media/Blue.png": "/icon_maker/static/media/Blue.300b9aeb23b54cb6f30b.png",
+    "static/media/Yellow.png": "/icon_maker/static/media/Yellow.511e3ae24f77797f1a83.png",
+    "static/media/Eyebrows.png": "/icon_maker/static/media/Eyebrows.f181c435adeacc62bde2.png",
+    "static/media/Smile.png": "/icon_maker/static/media/Smile.466c46f3d8b9a7438a43.png",
+    "index.html": "/icon_maker/index.html",
+    "main.d0f09e97.css.map": "/icon_maker/static/css/main.d0f09e97.css.map",
+    "main.c8fa5ecd.js.map": "/icon_maker/static/js/main.c8fa5ecd.js.map",
+    "488.63c37a81.chunk.js.map": "/icon_maker/static/js/488.63c37a81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0f09e97.css",
+    "static/js/main.c8fa5ecd.js"
+  ]
+}
