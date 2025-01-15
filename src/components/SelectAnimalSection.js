@@ -1,8 +1,8 @@
 import SelectItemButton from "./SelectItemButton";
 import Styles from '../styles/Styles.module.css';
-import Bear from '../assets/Animals/Bear.png';
-import Bunny from '../assets/Animals/Bunny.png';
-import Cat from '../assets/Animals/Cat.png';
+import Bear from '../assets/animals/Bear.png';
+import Bunny from '../assets/animals/Bunny.png';
+import Cat from '../assets/animals/Cat.png';
 
 function SelectAnimalSection() {
   return (

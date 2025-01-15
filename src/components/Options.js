@@ -1,5 +1,6 @@
 import '../styles/Options.css';
 import SelectAnimalSection from './SelectAnimalSection';
+import SelectAccessorySection from './SelectAccessorySection';
 
 function Options() {
   return(
@@ -10,7 +11,7 @@ function Options() {
       </div>
       <div className="section">
         accessory
-        <SelectAnimalSection />
+        <SelectAccessorySection />
       </div>
       <div className="section">
         background

@@ -1,7 +1,7 @@
 .buttons {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-evenly;
+  width: 480px;
   top: 45px;
 }
