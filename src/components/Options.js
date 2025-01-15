@@ -1,6 +1,7 @@
 import '../styles/Options.css';
 import SelectAnimalSection from './SelectAnimalSection';
 import SelectAccessorySection from './SelectAccessorySection';
+import SelectExtrasSection from './SelectExtrasSection';
 
 function Options({ onSelection }) {
   return (
@@ -19,7 +20,7 @@ function Options({ onSelection }) {
       </div>
       <div className="section">
         extras
-        <SelectAccessorySection onSelection={(item) => onSelection('extras', item)} />
+        <SelectExtrasSection onSelection={(item) => onSelection('extras', item)} />
       </div>
     </header>
   );
