@@ -10,12 +10,12 @@ import TwoBows from '../assets/accessories/TwoBows.png';
 function SelectAnimalSection() {
   return (
     <div className={Styles.buttons}>
-      <SelectItemButton image={Sunglasses} />
-      <SelectItemButton image={Bow} />
-      <SelectItemButton image={Glasses} />
-      <SelectItemButton image={Hat} />
-      <SelectItemButton image={Monocle} />
-      <SelectItemButton image={TwoBows} />
+      <SelectItemButton image={Sunglasses} altText={"Sunglasses"} />
+      <SelectItemButton image={Bow} altText={"Bow"} />
+      <SelectItemButton image={Glasses} altText={"Glasses"} />
+      <SelectItemButton image={Hat} altText={"Hat"} />
+      <SelectItemButton image={Monocle} altText={"Monocle"} />
+      <SelectItemButton image={TwoBows} altText={"Two Bows"} />
     </div>
   );
 }

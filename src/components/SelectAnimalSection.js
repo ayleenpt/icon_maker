@@ -7,9 +7,9 @@ import Cat from '../assets/animals/Cat.png';
 function SelectAnimalSection() {
   return (
     <div className={Styles.buttons}>
-      <SelectItemButton image={Bear} />
-      <SelectItemButton image={Bunny} />
-      <SelectItemButton image={Cat} />
+      <SelectItemButton image={Bear} altText={"Bear"} />
+      <SelectItemButton image={Bunny} altText={"Bunny"} />
+      <SelectItemButton image={Cat} altText={"Cat"} />
     </div>
   );
 }
