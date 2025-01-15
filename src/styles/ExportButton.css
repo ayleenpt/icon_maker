@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Naturaly';
+  src: url(../assets/Naturaly.otf) format('opentype');
+}
+
+.export-button {
+  height: 116px;
+  width: 365px;
+  position: absolute;
+  bottom: 45px;
+  left: 45px;
+  background-color: #eccddd;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Naturaly';
+  font-size: 2em;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 50, 0, 0.4);
+  box-shadow: 3px 3px 6px rgb(0, 0, 0, 0.3);
+  transition: 0.1s;
+}
+
+.export-button:active {
+  transform: 5px 5px;
+  box-shadow: 0px 0px 0.5px rgb(0, 0, 0, 0.3);
+  transition: 0.1s;
+}

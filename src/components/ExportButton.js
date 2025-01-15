@@ -1,9 +1,9 @@
-import React from "react";
+import '../styles/ExportButton.css';
 
-const Button = ({ className, onClick, text}) => { 
+const Button = ({onClick, text}) => { 
   return (
     <button
-      className={className}
+      className="export-button"
       onClick={onClick}
     >
       {text}
