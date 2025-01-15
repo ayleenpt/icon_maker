@@ -10,19 +10,18 @@
   left: 45px;
 };
 
-/* Styling for images inside the ImageWindow */
+
 .window .img {
-  object-fit: cover; /* Ensures images maintain their aspect ratio */
+  object-fit: cover;
 }
 
-/* Specific layering for each type */
 .window .background {
   width: 345px;
   height: 345px;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1; /* Background at the bottom */
+  z-index: 1;
 }
 
 .window .animal {
@@ -31,7 +30,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 2; /* Animal above background */
+  z-index: 2;
 }
 
 .window .accessory {
@@ -40,7 +39,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 3; /* Accessory above animal */
+  z-index: 3;
 }
 
 .window .extras {
@@ -49,5 +48,5 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 4; /* Extras at the top */
+  z-index: 4;
 }
