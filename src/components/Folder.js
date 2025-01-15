@@ -7,7 +7,7 @@ function Folder() {
   const [selectedAnimal, setSelectedAnimal] = useState(null);
   const [selectedAccessory, setSelectedAccessory] = useState(null);
   const [selectedBackground, setSelectedBackground] = useState(null);
-  const [selectedExtras, setSelectedExtras] = useState(null);
+  const [selectedExtras, setSelectedExtras] = useState([]);
 
   const handleSelection = (type, item) => {
     switch (type) {
@@ -21,7 +21,11 @@ function Folder() {
         setSelectedBackground(selectedBackground === item ? null : item);
         break;
       case 'extras':
-        setSelectedExtras(selectedExtras === item ? null : item);
+        setSelectedExtras((prevExtras) =>
+          prevExtras.includes(item)
+            ? prevExtras.filter((extra) => extra !== item)
+            : [...prevExtras, item]
+        );
         break;
       default:
         break;
@@ -42,6 +46,6 @@ function Folder() {
       </div>
     </div>
   );
-};
+}
 
 export default Folder;

@@ -6,7 +6,10 @@ function ImageWindow({ selectedAnimal, selectedAccessory, selectedBackground, se
       {selectedBackground && <img src={selectedBackground} alt="Selected Background" className="background" />}
       {selectedAnimal && <img src={selectedAnimal} alt="Selected Animal" className="animal" />}
       {selectedAccessory && <img src={selectedAccessory} alt="Selected Accessory" className="accessory" />}
-      {selectedExtras && <img src={selectedExtras} alt="Selected Extras" className="extras" />}
+      {selectedExtras &&
+        selectedExtras.map((extra, index) => (
+          <img key={index} src={extra} alt={`Extra ${index}`} className="extras" />
+        ))}
     </div>
   );
 }
