@@ -1,6 +1,6 @@
 .window {
-  width: 345px;
-  height: 345px;
+  width: 349px;
+  height: 349px;
   border: 8px solid #aaca90;
   box-shadow: inset 2px 2px 6px rgb(0, 0, 0, 0.3);
   border-radius: 8px;
@@ -16,8 +16,8 @@
 }
 
 .window .background {
-  width: 345px;
-  height: 345px;
+  width: 349px;
+  height: 349px;
   position: absolute;
   top: 0;
   left: 0;
@@ -25,8 +25,8 @@
 }
 
 .window .animal {
-  width: 345px;
-  height: 345px;
+  width: 349px;
+  height: 349px;
   position: absolute;
   top: 0;
   left: 0;
@@ -34,8 +34,8 @@
 }
 
 .window .accessory {
-  width: 345px;
-  height: 345px;
+  width: 349px;
+  height: 349px;
   position: absolute;
   top: 0;
   left: 0;
@@ -43,8 +43,8 @@
 }
 
 .window .extras {
-  width: 345px;
-  height: 345px;
+  width: 349px;
+  height: 349px;
   position: absolute;
   top: 0;
   left: 0;
