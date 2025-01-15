@@ -19,7 +19,7 @@ function Options({ setSelectedAnimal, setSelectedAccessory, setSelectedBackgroun
       </div>
       <div className="section">
         Extras
-        <SelectAnimalSection setSelectedItem={setSelectedExtras} />
+        <SelectAccessorySection setSelectedItem={setSelectedExtras} />
       </div>
     </header>
   );

@@ -5,6 +5,49 @@
   box-shadow: inset 2px 2px 6px rgb(0, 0, 0, 0.3);
   border-radius: 8px;
   position: absolute;
+  overflow: hidden;
   top: 95px;
   left: 45px;
 };
+
+/* Styling for images inside the ImageWindow */
+.window .img {
+  object-fit: cover; /* Ensures images maintain their aspect ratio */
+}
+
+/* Specific layering for each type */
+.window .background {
+  width: 345px;
+  height: 345px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Background at the bottom */
+}
+
+.window .animal {
+  width: 345px;
+  height: 345px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; /* Animal above background */
+}
+
+.window .accessory {
+  width: 345px;
+  height: 345px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3; /* Accessory above animal */
+}
+
+.window .extras {
+  width: 345px;
+  height: 345px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4; /* Extras at the top */
+}
