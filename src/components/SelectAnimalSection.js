@@ -1,15 +1,15 @@
 import SelectItemButton from "./SelectItemButton";
 import Styles from '../styles/Styles.module.css';
-import BearImage from '../assets/Bear.png';
-import BunnyImage from '../assets/Bunny.png';
-import CatImage from '../assets/Cat.png';
+import Bear from '../assets/Animals/Bear.png';
+import Bunny from '../assets/Animals/Bunny.png';
+import Cat from '../assets/Animals/Cat.png';
 
 function SelectAnimalSection() {
   return (
     <div className={Styles.buttons}>
-      <SelectItemButton image={BearImage} />
-      <SelectItemButton image={BunnyImage} />
-      <SelectItemButton image={CatImage} />
+      <SelectItemButton image={Bear} />
+      <SelectItemButton image={Bunny} />
+      <SelectItemButton image={Cat} />
     </div>
   );
 }
