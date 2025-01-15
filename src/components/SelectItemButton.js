@@ -1,10 +1,11 @@
 import '../styles/SelectItemButton.css';
 import React from "react";
 
-const SelectItemButton = ({image, altText}) => {
+const SelectItemButton = ({ image, altText, onSelect }) => {
   const handleClick = () => {
-    console.log(`Selected ${image}`);
-  }
+    onSelect(image);
+  };
+
   return (
     <button
       className="button"

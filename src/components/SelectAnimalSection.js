@@ -4,12 +4,16 @@ import Bear from '../assets/animals/Bear.png';
 import Bunny from '../assets/animals/Bunny.png';
 import Cat from '../assets/animals/Cat.png';
 
-function SelectAnimalSection() {
+function SelectAnimalSection({ setSelectedItem }) {
+  const handleSelect = (image) => {
+    setSelectedItem(image);
+  };
+
   return (
     <div className={Styles.buttons}>
-      <SelectItemButton image={Bear} altText={"Bear"} />
-      <SelectItemButton image={Bunny} altText={"Bunny"} />
-      <SelectItemButton image={Cat} altText={"Cat"} />
+      <SelectItemButton image={Bear} altText={"Bear"} onSelect={handleSelect} />
+      <SelectItemButton image={Bunny} altText={"Bunny"} onSelect={handleSelect} />
+      <SelectItemButton image={Cat} altText={"Cat"} onSelect={handleSelect} />
     </div>
   );
 }

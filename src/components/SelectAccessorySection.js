@@ -7,15 +7,19 @@ import Glasses from '../assets/accessories/Glasses.png';
 import Monocle from '../assets/accessories/Monocle.png';
 import TwoBows from '../assets/accessories/TwoBows.png';
 
-function SelectAnimalSection() {
+function SelectAnimalSection({ setSelectedItem }) {
+  const handleSelect = (image) => {
+    setSelectedItem(image);
+  };
+
   return (
     <div className={Styles.buttons}>
-      <SelectItemButton image={Sunglasses} altText={"Sunglasses"} />
-      <SelectItemButton image={Bow} altText={"Bow"} />
-      <SelectItemButton image={Glasses} altText={"Glasses"} />
-      <SelectItemButton image={Hat} altText={"Hat"} />
-      <SelectItemButton image={Monocle} altText={"Monocle"} />
-      <SelectItemButton image={TwoBows} altText={"Two Bows"} />
+      <SelectItemButton image={Sunglasses} altText={"Sunglasses"}  onSelect={handleSelect} />
+      <SelectItemButton image={Bow} altText={"Bow"}  onSelect={handleSelect} />
+      <SelectItemButton image={Glasses} altText={"Glasses"}  onSelect={handleSelect} />
+      <SelectItemButton image={Hat} altText={"Hat"}  onSelect={handleSelect} />
+      <SelectItemButton image={Monocle} altText={"Monocle"}  onSelect={handleSelect} />
+      <SelectItemButton image={TwoBows} altText={"Two Bows"}  onSelect={handleSelect} />
     </div>
   );
 }
