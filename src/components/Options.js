@@ -2,24 +2,24 @@ import '../styles/Options.css';
 import SelectAnimalSection from './SelectAnimalSection';
 import SelectAccessorySection from './SelectAccessorySection';
 
-function Options({ setSelectedAnimal, setSelectedAccessory, setSelectedBackground, setSelectedExtras }) {
+function Options({ onSelection }) {
   return (
     <header className="options-window">
       <div className="section">
-        Animal
-        <SelectAnimalSection setSelectedItem={setSelectedAnimal} />
+        animal
+        <SelectAnimalSection onSelection={(item) => onSelection('animal', item)} />
       </div>
       <div className="section">
-        Accessory
-        <SelectAccessorySection setSelectedItem={setSelectedAccessory} />
+        accessory
+        <SelectAccessorySection onSelection={(item) => onSelection('accessory', item)} />
       </div>
       <div className="section">
-        Background
-        <SelectAnimalSection setSelectedItem={setSelectedBackground} />
+        background
+        <SelectAnimalSection onSelection={(item) => onSelection('background', item)} />
       </div>
       <div className="section">
-        Extras
-        <SelectAccessorySection setSelectedItem={setSelectedExtras} />
+        extras
+        <SelectAccessorySection onSelection={(item) => onSelection('extras', item)} />
       </div>
     </header>
   );

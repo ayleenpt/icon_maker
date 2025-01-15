@@ -9,6 +9,25 @@ function Folder() {
   const [selectedBackground, setSelectedBackground] = useState(null);
   const [selectedExtras, setSelectedExtras] = useState(null);
 
+  const handleSelection = (type, item) => {
+    switch (type) {
+      case 'animal':
+        setSelectedAnimal(selectedAnimal === item ? null : item);
+        break;
+      case 'accessory':
+        setSelectedAccessory(selectedAccessory === item ? null : item);
+        break;
+      case 'background':
+        setSelectedBackground(selectedBackground === item ? null : item);
+        break;
+      case 'extras':
+        setSelectedExtras(selectedExtras === item ? null : item);
+        break;
+      default:
+        break;
+    }
+  };
+
   return (
     <div className="container">
       <div className="folder_tab"></div>
@@ -19,12 +38,7 @@ function Folder() {
           selectedBackground={selectedBackground}
           selectedExtras={selectedExtras}
         />
-        <Options
-          setSelectedAnimal={setSelectedAnimal}
-          setSelectedAccessory={setSelectedAccessory}
-          setSelectedBackground={setSelectedBackground}
-          setSelectedExtras={setSelectedExtras}
-        />
+        <Options onSelection={handleSelection} />
       </div>
     </div>
   );
