@@ -4,6 +4,7 @@ import Blue from '../assets/backgrounds/Blue.png';
 import Green from '../assets/backgrounds/Green.png';
 import Purple from '../assets/backgrounds/Purple.png';
 import Yellow from '../assets/backgrounds/Yellow.png';
+import Pink from '../assets/backgrounds/Pink.png';
 
 function SelectBackgroundSection({ onSelection }) {
   const backgroundStyle = {
@@ -17,6 +18,7 @@ function SelectBackgroundSection({ onSelection }) {
       <SelectItemButton image={Green} altText={"Green"} onClick={() => onSelection(Green)}  style={backgroundStyle} />
       <SelectItemButton image={Purple} altText={"Purple"} onClick={() => onSelection(Purple)}  style={backgroundStyle} />
       <SelectItemButton image={Yellow} altText={"Yellow"} onClick={() => onSelection(Yellow)}  style={backgroundStyle} />
+      <SelectItemButton image={Pink} altText={"Pink"} onClick={() => onSelection(Pink)}  style={backgroundStyle} />
     </div>
   );
 }

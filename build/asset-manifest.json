@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/icon_maker/static/css/main.96088027.css",
-    "main.js": "/icon_maker/static/js/main.c8fa5ecd.js",
+    "main.js": "/icon_maker/static/js/main.04ed70d6.js",
     "static/js/488.63c37a81.chunk.js": "/icon_maker/static/js/488.63c37a81.chunk.js",
     "static/media/Bear.png": "/icon_maker/static/media/Bear.ded18e77f0e6396230e2.png",
     "static/media/Cat.png": "/icon_maker/static/media/Cat.e987f66ed93060e07536.png",
@@ -21,14 +21,15 @@
     "static/media/Blue.png": "/icon_maker/static/media/Blue.300b9aeb23b54cb6f30b.png",
     "static/media/Yellow.png": "/icon_maker/static/media/Yellow.511e3ae24f77797f1a83.png",
     "static/media/Eyebrows.png": "/icon_maker/static/media/Eyebrows.f181c435adeacc62bde2.png",
+    "static/media/Pink.png": "/icon_maker/static/media/Pink.57d7a021a3c606f5154b.png",
     "static/media/Smile.png": "/icon_maker/static/media/Smile.466c46f3d8b9a7438a43.png",
     "index.html": "/icon_maker/index.html",
     "main.96088027.css.map": "/icon_maker/static/css/main.96088027.css.map",
-    "main.c8fa5ecd.js.map": "/icon_maker/static/js/main.c8fa5ecd.js.map",
+    "main.04ed70d6.js.map": "/icon_maker/static/js/main.04ed70d6.js.map",
     "488.63c37a81.chunk.js.map": "/icon_maker/static/js/488.63c37a81.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96088027.css",
-    "static/js/main.c8fa5ecd.js"
+    "static/js/main.04ed70d6.js"
   ]
 }
